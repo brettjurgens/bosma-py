@@ -4,10 +4,9 @@ from enum import Enum
 from typing import Union
 
 from collections.abc import Callable
-from bleak import BleakClient, BleakError
+from bleak import BleakClient
 from bleak.backends.characteristic import BleakGATTCharacteristic
 from bleak.backends.device import BLEDevice
-from bleak.backends.scanner import AdvertisementData
 from bleak_retry_connector import establish_connection
 
 from .model import LockState, Connectivity

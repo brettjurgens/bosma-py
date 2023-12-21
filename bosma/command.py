@@ -2,8 +2,7 @@ from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from enum import Enum
-from typing import Union, Dict
-import struct
+from typing import Union
 import time
 import os
 

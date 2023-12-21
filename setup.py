@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['bleak>=0.21.1', ]
+requirements = ['bleak>=0.21.1', 'bleak-retry-connector>=3.3.0']
 
 test_requirements = ['pytest>=3', ]
 
